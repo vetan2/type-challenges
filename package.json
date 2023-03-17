@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "translate": "esno ./scripts/translate-cli.ts",
     "utils:release": "pnpm -C utils release",
-    "format": "prettier --write 'template.ts'"
+    "format": "prettier --write '**/template.ts'"
   },
   "dependencies": {
     "esno": "^0.16.3",
